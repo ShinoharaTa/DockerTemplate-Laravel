@@ -38,6 +38,7 @@ services:
 
   node:
     image: node:12.13-alpine
+    container_name: ${APP_NAME}-node
     tty: true
     volumes:
       - ./${NODE_DIR}:/var/www

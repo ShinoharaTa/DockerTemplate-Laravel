@@ -9,6 +9,7 @@
 1. PHP 8.0 (php8.0-fpm)
 2. Nginx (Official Image)
 3. MySQL 5.7
+4. node:12.13-alpine
 
 ## 使い方
 
